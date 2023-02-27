@@ -1,0 +1,96 @@
+.trendingProducts {
+    height: auto;
+    width: 80%;
+    margin: 30px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.trendingProducts .filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-top: 2px solid #1b1b1b;
+    border-bottom: 2px solid #1b1b1b;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+.trendingProducts .filter .filterIcon {
+    margin: 20px;
+    display: block;
+}
+
+.shoeCarousel {
+    background-color: transparent;
+    position: relative;
+    margin: 10px;
+    height: 100%;
+    width: 200px;
+    border: none;
+
+}
+
+.trendingProducts .trendingCards {
+    height: auto;
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.trendingProducts .trendingCards .tCardImgContainer {
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.trendingProducts .trendingCards .tCardImgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+    display: flex;
+}
+
+.trendingProducts .trendingCards h3 {
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+
+.trendingProducts .trendingCards .price {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    margin: auto;
+}
+
+.trendingProducts .trendingCards .price .a-price {
+    font-weight: bold;
+    width: 100%;
+    margin: unset;
+    text-align: left;
+}
+
+.trendingProducts .trendingCards .price .b-price {
+    font-weight: normal;
+    text-decoration: line-through;
+    font-size: 10px;
+    width: 100%;
+    margin: unset;
+    text-align: left;
+}

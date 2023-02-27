@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/shoppa-page/static/js/main.472c9492.js",
+    "index.html": "/shoppa-page/index.html",
+    "main.472c9492.js.map": "/shoppa-page/static/js/main.472c9492.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.472c9492.js"
+  ]
+}
