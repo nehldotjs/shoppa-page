@@ -1,5 +1,4 @@
 import React from "react";
-
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Accesories from "./components/Accesories";
@@ -23,7 +22,6 @@ import comImage1 from "./assets/community1.png";
 import comImage2 from "./assets/community2.png";
 import comImage3 from "./assets/community3.png";
 import comImage4 from "./assets/community4.png";
-
 
 function App() {
   return (
