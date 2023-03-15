@@ -52,7 +52,6 @@
 .viewMoreButton .viewMoreBtn {
     font-size: 12px;
     padding: 5px;
-
     border-radius: 5px;
     border: 2px solid transparent;
     border-bottom: 2px solid darkgrey;
@@ -143,4 +142,142 @@
     display: flex;
     width: 100%;
     text-decoration: line-through;
+}
+
+@media screen and (max-width:900px) {
+    .accessories {
+        width: 95%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .accessoriesHeader {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px 15px;
+        border-top: 2px solid #1b1b1b;
+        border-bottom: 2px solid #1b1b1b;
+    }
+
+    .accessoriesContext {
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        justify-content: flex-end;
+        align-items: center;
+        margin: auto;
+    }
+
+    .accessoriesContext h3 {
+        font-size: 20px;
+        text-align: end;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin-right: 0px;
+    }
+
+    .cardWrapper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .accesories-itemCardsContainer {
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        height: auto;
+        width: 100%;
+        gap: 5px;
+        flex-wrap: wrap;
+        padding: 5px;
+    }
+
+    .accesories-itemCardsContainer button {
+        background-color: transparent;
+        display: flex;
+        border: none;
+        height: auto;
+        width: 100px;
+        border: none;
+        outline: none;
+    }
+
+    .accessories-imageCon {
+        display: flex;
+        height: auto;
+        width: auto;
+        justify-content: flex-start;
+        align-items: center;
+        margin: unset;
+        overflow: hidden;
+    }
+
+    .accessories-descriptions {
+        padding: unset;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .accessories-itemTitle {
+        display: flex;
+        width: 100%;
+        font-size: 8px;
+        text-align: start;
+        text-transform: capitalize;
+        margin: auto;
+        padding: 5px 0px;
+
+    }
+
+    .accessories-itemPriceContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        margin: unset;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .accessories-currentPrice {
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+        width: auto;
+    }
+
+    .accessories-beforePrice {
+        font-size: 10px;
+        font-weight: normal;
+        display: flex;
+        width: auto;
+        text-decoration: line-through;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -6,13 +6,14 @@ function CommunityBlog(prop) {
     <>
       <div className="community">
         <div className="communityHeaderContainer">
-          <div className="filterIconContainer">filter icon</div>
+          {/* <div className="filterIconContainer">filter icon</div> */}
           <div className="c-hearder">Style Community</div>
         </div>
         <div className="communityContext">
           <h1>
-            Get the quintessential look by pairing the latest runway <br />{" "}
-            styles with a statement bag and <br /> modern shoes.
+            Achieve the ultimate fashion statement by effortlessly matching the
+            newest designer runway trends with a bold and distinctive handbag
+            and contemporary footwear.
           </h1>
         </div>
         <div className="communityImages">

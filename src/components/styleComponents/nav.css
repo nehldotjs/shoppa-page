@@ -173,7 +173,7 @@
         display: flex;
         height: auto;
         margin: unset;
-        padding:0px 10px;
+        padding: 0px 10px;
         width: inherit;
         position: relative;
         align-items: center;
@@ -206,7 +206,8 @@
 
     .toggleBtn {
         width: 50px;
-        height: 50px;
+        height: auto;
+        gap: 10px;
         border-radius: 10px;
         border: none;
         display: flex;
@@ -308,16 +309,16 @@
         width: 100%;
         top: 0px;
         position: absolute;
-        background-color: yellowgreen;
+        background-color: #565555;
         transition: 500ms all ease;
     }
 
     .linksToggleWrapper {
-        transform: translateY(0px);
+        transform: translateY(-100%);
     }
 
     .linksToggleDeActivated {
-        transform: translateY(-100%);
+        transform: translateY(0px); 
     }
 
     .mobileNavBtnToggleWrapper {
@@ -329,7 +330,6 @@
         padding: 5px;
         margin: unset;
         display: flex;
-        background-color: orangered;
     }
 
     .mobileLinks .mobileNavBtnToggleWrapper button {
@@ -345,7 +345,6 @@
         border: none;
         color: #fff;
         padding: 10px 20px;
-        background-color: purple;
         text-transform: capitalize;
     }
 

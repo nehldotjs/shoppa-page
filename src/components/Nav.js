@@ -5,14 +5,16 @@ import "./styleComponents/nav.css";
 
 function Nav(props) {
   const { shoppaLogo } = props;
-  const [isOn, setIsOn] = useState(true);
+  const [isOn, setIsOn] = useState(false);
   function handler() {
     if (isOn) {
       setIsOn(false);
     } else {
       setIsOn(true);
     }
-    console.log(isOn);
+  }
+  function btnAction() {
+    setIsOn(false);
   }
   return (
     <>
@@ -45,11 +47,16 @@ function Nav(props) {
           <div
             className={
               !isOn
-                ? "mobileLinks linksToggleDeActivated"
-                : "mobileLinks linksToggleWrapper"
+                ? "mobileLinks linksToggleWrapper"
+                : "mobileLinks linksToggleDeActivated"
             }>
             <div className="mobileNavBtnToggleWrapper">
-              <button type="button" className="links">
+              <button
+                type="button"
+                className="links"
+                onClick={() => {
+                  btnAction();
+                }}>
                 categories
               </button>
               <button type="button" className="links">
