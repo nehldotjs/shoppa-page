@@ -3,15 +3,14 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color: #fbfbfb;
+}
 button{
   cursor: pointer;
 } 
-body{
-  background-color: #F0F0F0;
-}
 .wrapper{
   display: flex;
-  padding-top: 10%;
   align-items: center;
   flex-direction: column;
   justify-content: center;

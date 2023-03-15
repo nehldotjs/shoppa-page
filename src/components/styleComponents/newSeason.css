@@ -377,3 +377,83 @@ button .gender-category {
     display: none;
     transition: 500ms all ease;
 }
+
+
+@media screen and (max-width:900px) {
+    .newSeason {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .newSeasonContent {
+        display: flex;
+        flex: 1;
+        height: auto;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .ns-productContainer {
+        padding: 5px;
+        display: flex;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ns-imageContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        width: auto;
+        padding: 5px;
+        margin: unset;
+        position: relative;
+    }
+
+    .ns-productContainer .ns-imageContainer {
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .ns-productContainer .ns-imageContainer .ns-firtsImage {
+        margin: auto;
+        display: flex;
+        height: auto;
+        width: 100%;
+        position: relative;
+    }
+
+    .ns-productContainer .ns-imageContainer .ns-firtsImage .ns-selectActiveImage {
+        margin: auto;
+        display: flex;
+        width: inherit;
+        position: relative;
+    }
+
+    .ns-productContainer .ns-imageContainer .otherImages {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+}

@@ -25,31 +25,38 @@ import comImage4 from "./assets/community4.png";
 
 function App() {
   return (
-    <div basename="/shoppa-page">
-      <AccessoriesData>
-        <ProductData>
-          <DataContextProvider>
-            <div className="App">
-              <Nav shoppaLogo={shoppaLogo} />
-              <div className="wrapper">
-                <Hero />
-                <TrendingProducts jordanSneaker={jordanSneaker} />
-                <NewSeason />
-                <CommunityBlog
-                  comImage1={comImage1}
-                  comImage2={comImage2}
-                  comImage3={comImage3}
-                  comImage4={comImage4}
-                />
-                <Accesories />
-                <Sponsors />
-                <Footer />
+    <AccessoriesData>
+      <ProductData>
+        <DataContextProvider>
+          <div className="App">
+            <Nav shoppaLogo={shoppaLogo} />
+            <div className="wrapper">
+              <div className="loginContainer">
+                <h3 className="promo">
+                  Get amazing discount when you shop with us, over 10% worth of
+                  csash at your finger tips !
+                </h3>
+                <div className="login">
+                  <button className="loginBtn">LOGIN</button>
+                </div>
               </div>
+              <Hero />
+              <TrendingProducts jordanSneaker={jordanSneaker} />
+              <NewSeason />
+              <CommunityBlog
+                comImage1={comImage1}
+                comImage2={comImage2}
+                comImage3={comImage3}
+                comImage4={comImage4}
+              />
+              <Accesories />
+              <Sponsors />
+              <Footer />
             </div>
-          </DataContextProvider>
-        </ProductData>
-      </AccessoriesData>{" "}
-    </div>
+          </div>
+        </DataContextProvider>
+      </ProductData>
+    </AccessoriesData>
   );
 }
 
