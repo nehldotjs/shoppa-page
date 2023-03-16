@@ -28,7 +28,7 @@ function App() {
     <AccessoriesData>
       <ProductData>
         <DataContextProvider>
-          <div className="App">
+          <div className="App" basename="/shoppa-page">
             <Nav shoppaLogo={shoppaLogo} />
             <div className="wrapper">
               <div className="loginContainer">
