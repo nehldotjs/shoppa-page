@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nehldotjs.github.io/shoppa/static/css/main.b1d5e763.css",
-    "main.js": "/nehldotjs.github.io/shoppa/static/js/main.c911c8f7.js",
+    "main.css": "/nehldotjs.github.io/shoppa/static/css/main.89126f80.css",
+    "main.js": "/nehldotjs.github.io/shoppa/static/js/main.32277b5d.js",
     "static/media/image1.jpg": "/nehldotjs.github.io/shoppa/static/media/image1.7063490cd6fd2ba04a58.jpg",
     "static/media/image7.jpg": "/nehldotjs.github.io/shoppa/static/media/image7.5851accfcdcf0a08e326.jpg",
     "static/media/bag2.jpg": "/nehldotjs.github.io/shoppa/static/media/bag2.370c735766586d03b7e6.jpg",
@@ -63,11 +63,11 @@
     "static/media/kid2.jpg": "/nehldotjs.github.io/shoppa/static/media/kid2.799f15fe16467f20fdae.jpg",
     "static/media/kid1.jpg": "/nehldotjs.github.io/shoppa/static/media/kid1.c924f5ad5cd745246176.jpg",
     "index.html": "/nehldotjs.github.io/shoppa/index.html",
-    "main.b1d5e763.css.map": "/nehldotjs.github.io/shoppa/static/css/main.b1d5e763.css.map",
-    "main.c911c8f7.js.map": "/nehldotjs.github.io/shoppa/static/js/main.c911c8f7.js.map"
+    "main.89126f80.css.map": "/nehldotjs.github.io/shoppa/static/css/main.89126f80.css.map",
+    "main.32277b5d.js.map": "/nehldotjs.github.io/shoppa/static/js/main.32277b5d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1d5e763.css",
-    "static/js/main.c911c8f7.js"
+    "static/css/main.89126f80.css",
+    "static/js/main.32277b5d.js"
   ]
 }
