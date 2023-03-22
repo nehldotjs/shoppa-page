@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/shoppa-page/static/css/main.d25cba3c.css",
+    "main.css": "/shoppa-page/static/css/main.7d96cdac.css",
     "main.js": "/shoppa-page/static/js/main.65a99013.js",
     "static/media/image1.jpg": "/shoppa-page/static/media/image1.7063490cd6fd2ba04a58.jpg",
     "static/media/image7.jpg": "/shoppa-page/static/media/image7.5851accfcdcf0a08e326.jpg",
@@ -63,11 +63,11 @@
     "static/media/kid2.jpg": "/shoppa-page/static/media/kid2.799f15fe16467f20fdae.jpg",
     "static/media/kid1.jpg": "/shoppa-page/static/media/kid1.c924f5ad5cd745246176.jpg",
     "index.html": "/shoppa-page/index.html",
-    "main.d25cba3c.css.map": "/shoppa-page/static/css/main.d25cba3c.css.map",
+    "main.7d96cdac.css.map": "/shoppa-page/static/css/main.7d96cdac.css.map",
     "main.65a99013.js.map": "/shoppa-page/static/js/main.65a99013.js.map"
   },
   "entrypoints": [
-    "static/css/main.d25cba3c.css",
+    "static/css/main.7d96cdac.css",
     "static/js/main.65a99013.js"
   ]
 }
